@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="mystory.css">
+ <title>My Story</title>
+</head>
+<body>
+
+      <section>
+        <!-- Return Button -->
+        <style>
+  /* body {
+    margin: auto;
+  
+  } */
+  #divBlue {
+    position: auto;
+    top: 100px;
+    background-color: rgb(107, 233, 233);
+    width: 59px;
+    min-height: 19px;
+    max-height: 28px;
+    margin: 8px;
+    padding: 2px;           
+  }
+
+ p{
+   text-align: justify;
+   
+ }
+  
+</style>
+      <div class="container">
+        <Return Button>
+        <div class="col">
+          <div id="divBlue">
+            <a href="index.html">
+            <button>&#9756 Home</button>
+          </a>
+        </div>
+      </div>
+    </Return>
+    
+    
+    <body>
+    <!-- End of Return Button -->
+    <div class="container-fluid">
+    <div class="row">  
+     <div class="col-md-4">
+  <p class="text">My name is Herbert McKoy. I am the CEO & Web Developer for VET -aka- (Virtual Entertainment Television).
+        
+        
+  My background is in Law Enforcement. I never thought I would not be working as anything other than the Police. My career was everything to me, but over time, I had surcumb to illness. Due to my health, I was forced retire. Shortly afterwards, I was placed on dialysis. Unlike most dialysis patients, I had to undergo my dialysis treatments, 6 to 7 days a week. This was my life for 5 long years as I waited and waited for a kidney transpant. During my years of dialysis treatments, I've had many surgeries over the years. Procedures on my veins, catheters removed only to later be replaced, multiple fistulas, and open ❤ surgeries. Yet, here I am a survivor. On December 31st, 2020 New Years Eve, I finally received the kidney transplant that I fought so hard to receive.
+        
+  I'm telling you this story to give you an example of the Fight that dwells within me. I'm the warrior who has fought to live, learn, and survive. I have the WILL to fight for myself but I will also fight for you. 
+        
+  During dialysis treatments, I used the time to prepare for a new career. I have learned skills in Virtual Reality, Augmented Reality, Game Design with Unity, Open CV w/Object Detection, Artificial Intelligence and Machine Learning, and complete Full-Stack Javascript Development. I can learn and adapt to most platforms and programming languages. I learn what's necessary to get the job done.
+        
+  Being a musician since 8 years old, I have always had the love for creating something from a basic idea. I enjoy deconstruction and reconstructioning to bring to life a dream into reality. My joy comes from helping others as they become successful. Intangibles cannot be taught in a classroom. No, it is taught exclusively in the school of the "Hard Knocks" and I have graduated with a Ph.D. So, if you are looking for a determined problem solver, thinker, innovative creator, and someone who just appreciates the life he has been given.... go to the contact page. Send me a message. Let connect!</p>
+          </div>
+        </div>
+       </div>
+      </div>
+      </section>
+      <script>
+        // now, split text into letters
+        const text= document.querySelector('.text');
+        text.innerHTML = text.textContent.replace(/\S/g,
+        "<span>$&</span>");
+        
+        //now, add active class on hovered <span> tag
+          const letters = document.querySelectorAll('span');
+          for (let i=0; i<letters.length; i++){
+        letters[i].addEventListener("mouseover", function
+        (){
+          letters[i].classList.add('active')
+        })
+      }
+    </script>        
+</body>
+</html>
+
